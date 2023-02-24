@@ -13,7 +13,7 @@ os.environ["LOOKERSDK_CLIENT_ID"] = ${{ secrets.LOOKERSDK_CLIENT_ID }}
 os.environ["LOOKERSDK_CLIENT_SECRET"] = ${{ secrets.LOOKERSDK_CLIENT_SECRET }}
 
 def main():
-    st.header("My Looker Micro Admin")
+    st.header("My Looker Micro Front")
     st.markdown("---")
 
     st.title("User Management")
