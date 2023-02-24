@@ -1,5 +1,6 @@
 # My Looker Micro Front
 This is a Streamlit app that allows you to manage users and datagroups in Looker.
+The goal is to have a micro front to let your end-users perform admin actions without letting them have admin permission.
 
 ## Installation
 To run this app, you will need to install the following packages:
