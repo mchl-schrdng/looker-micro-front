@@ -23,7 +23,7 @@ LOOKERSDK_CLIENT_SECRET
 To run the app, navigate to the directory where the code is saved and run the following command:
 
 ```python
-streamlit run app.py
+streamlit run main.py
 ```
 
 The app will open in your browser, and you can use the various sections to manage users and datagroups in Looker.
