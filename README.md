@@ -11,7 +11,7 @@ pip install streamlit
 pip install looker-sdk
 pip install pandas
 ```
-You will also need to set the following environment variables using GitHub secrets:
+You will also need to set the following environment variables using yours:
 
 ```python
 LOOKERSDK_BASE_URL
