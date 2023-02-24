@@ -5,12 +5,12 @@ import looker_sdk
 from looker_sdk import models40
 
 # Set Looker SDK environment variables using GitHub secrets
-os.environ["LOOKERSDK_BASE_URL"] = ${{ secrets.LOOKERSDK_BASE_URL }}
+os.environ["LOOKERSDK_BASE_URL"] = "https://mylookerinstance.eu.looker.com/"
 os.environ["LOOKERSDK_API_VERSION"] = "4.0"
 os.environ["LOOKERSDK_VERIFY_SSL"] = "true"
 os.environ["LOOKERSDK_TIMEOUT"] = "120"
-os.environ["LOOKERSDK_CLIENT_ID"] = ${{ secrets.LOOKERSDK_CLIENT_ID }}
-os.environ["LOOKERSDK_CLIENT_SECRET"] = ${{ secrets.LOOKERSDK_CLIENT_SECRET }}
+os.environ["LOOKERSDK_CLIENT_ID"] = "client_id"
+os.environ["LOOKERSDK_CLIENT_SECRET"] = "client_secret"
 
 def main():
     st.header("My Looker Micro Front")
